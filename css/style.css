@@ -1,0 +1,186 @@
+/*Global*/
+body{
+  font-family: Arial,Helvetica;
+  font-size: 15px;
+  line-height: 1.5;
+  padding: 0;
+  margin: 0;
+  background-color: #c0e3cc;
+}
+
+.container{
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+
+}
+ul{
+  padding:0;
+  margin: 0;
+}
+.button1{
+  height:32px;
+  background-color:#ffb400;
+  color:grey;
+}
+
+a{
+  color:#207c7e;
+  text-decoration: none;
+}
+a:hover{
+  color:black;
+  font-weight: bold;
+}
+.dark{
+  background-color: #0a4540;
+  color:white;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 100px;
+}
+/*Header*/
+header{
+  background-color: #207c7e;
+  color: white;
+  padding-top: 30px;
+  min-height: 70px;
+  border-bottom: #ffb400 3px solid;
+
+}
+
+header a{
+
+  color:white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 15px;
+}
+
+header li{
+  float: left;
+  display: inline;
+  padding-left: 20px;
+  padding-right:20px;
+}
+
+header #branding{
+  float: left;
+
+}
+header #branding h1{
+  margin: 0;
+}
+
+header nav{
+  float: right;
+  margin-top: 10px;
+}
+
+header .highlight,header .current a {
+  color:#ffb400;
+  font-weight: bold;
+}
+
+
+
+
+/*Showcase*/
+#showcase{
+  min-height: 400px;
+  background: url(../images/showcase2.jpg) no-repeat;
+}
+
+/*Newsletter section*/
+
+#newsletter{
+  padding:15px;
+  color:white;
+  background-color: #207c7e;
+}
+#newsletter h1{
+  float:left;
+}
+#newsletter form{
+  float:right;
+  margin-top: 20px;
+  margin-right: 80px;
+}
+#newsletter input{
+  padding 4px;
+  height:25px;
+  width: 250px;
+}
+
+/*Boxes*/
+
+#boxes{
+  margin-top: 20px;
+
+}
+
+#boxes .box{
+  float:left;
+  width: 30%;
+  padding:10px;
+  text-align: center;
+}
+
+#boxes .box img{
+  width: 100px;
+}
+/*sidebar*/
+aside#sidebar{
+  float: right;
+  width: 30%;
+
+
+}
+/*main*/
+article#about{
+  font-family: Comic Sans MS,Helvetica;
+  float:left;
+  width: 65%;
+  padding-bottom: 230px;
+}
+
+/*Recepies page*/
+.recepie {
+  font-family: Comic Sans MS,Helvetica;
+  float:left;
+  width: 70%;
+  margin-top:30px;
+  padding: 20px;
+
+}
+
+.image img{
+  float:right;
+  width: 300px;
+  margin-top: 30px;
+  border: 2px #eaeaea outset;
+
+}
+.recepie .title{
+  font-family: Comic Sans MS,Helvetica;
+  text-align: center;
+  font-size: 30;
+}
+.recepie {
+  border: 2px #eaeaea outset;
+  border-radius: 6px;
+
+}
+
+
+
+/*footer*/
+
+footer{
+  padding: 20px;
+  border-top: #ffb400 3px solid;
+  color:white;
+  background-color: #207c7e;
+  text-align: center;
+
+}
